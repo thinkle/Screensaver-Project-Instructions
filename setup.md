@@ -77,7 +77,13 @@ window.addEventListener(
 );
 ```
 
-You will of course also want to call your function once when you first load to size it appropriately to whatever the webpage is when it first loads.
+You will of course also want to call your function once when you first load to size it appropriately to whatever the webpage is when it first loads by adding to the bottom of the `canvas.ts` file:
+
+```typescript
+resizeCanvas()
+```
+
+Note: when you change the canvas size, it will erase all the drawings. If you are creating an animation, this won't be an issue since you're redrawing the canvas 60 times a second, but for other uses it means you might not want to change the canvas size when you resize the browser.
 
 Next step: [drawing](draw.md)
 

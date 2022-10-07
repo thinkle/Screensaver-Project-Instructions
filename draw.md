@@ -2,7 +2,7 @@
 
 To keep our lives simple and organized, let's try to use the following rules for drawings in this project:
 
-1. Every drawing will be a function that takes x and y coordinates as arguments.
+1. Every drawing will be a function that takes x and y coordinates as arguments (it might take other arguments too if it's trickier, but let's start with that)
 2. Every drawing will go in its own module.
 
 ## Our First Drawing

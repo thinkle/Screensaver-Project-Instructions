@@ -110,11 +110,6 @@ function updatePosition () {
 }
 ```
 
-[A much fancier balloon example](fancyBalloon.md)
-
-
-
-
 ## Some technical notes on requestAnimationFrame
 
 A few notes about animation: we ask the browser window to run animate as often as possible, but the computer is smart enough to save resources by not running the code if you, for example, switch to another tab to watch a YouTube video. 
