@@ -26,7 +26,7 @@ canvas.style.backgroundColor = '#222242';
 
 
 document.querySelector('#app')
-  .appendChild('canvas');
+  .appendChild(canvas);
 ```
 
 ## Next Steps...
