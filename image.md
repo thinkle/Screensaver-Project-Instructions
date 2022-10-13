@@ -43,6 +43,15 @@ export function drawCat (x, y) {
 }
 ```
 
+## Hiding that original cat
+
+Now that we have our cat working on the canvas, we don't need to show the original cat. We can go back into our HTML and change the line where it says `display:block` to read `display:none` and the cat will no longer appear:
+
+```html
+  <div style="display:none;">
+    <img id="cat" src="/cat.jpg">
+  </div>
+
 A final note: you can check out the [drawImage](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage) docs for a more complete
 explanation of what's possible with that function, but this should get you started :)
 

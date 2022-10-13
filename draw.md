@@ -22,7 +22,7 @@ import './balloon';
 ```typescript
 import {ctx, canvas} from './canvas';
 
-function drawBalloon (x,y) {
+export function drawBalloon (x,y) {
   // Draw a white string
   ctx.beginPath();
   ctx.strokeStyle = 'white';
@@ -78,3 +78,4 @@ Now that you have two squares showing up on screen, go back and start adding to 
 Got your drawing already? Awesome! Go you! Now it's time to work on animation!
 - [back to instructions](./instructions.md)
 - [animation](./animation.md)
+- [put an image on the canvas](./image.md)
