@@ -2,7 +2,7 @@
 
 The drawing context provides a simple rotate function (`ctx.rotate`), but it's a little tricky to use.
 
-The way rotating works in JavaScript is that you actually rotate the entire drawing context -- think of it as rotating the whole sheet of paper. Therefore, if you call `ctx.rotate(Math.PI/2)` (that should rotate the canvas 45 degrees) and then draw a line, the line will not only rotate but also move (imagine you're holding the canvas down by the top left corner and moving it -- that's what rotate does)
+The way rotating works in JavaScript is that you actually rotate the entire drawing context -- think of it as rotating the whole sheet of paper. Therefore, if you call `ctx.rotate(Math.PI/4)` (that should rotate the canvas 45 degrees) and then draw a line, the line will not only rotate but also move (imagine you're holding the canvas down by the top left corner and moving it -- that's what rotate does)
 
 ## Moving *and* rotating the canvas
 
